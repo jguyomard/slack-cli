@@ -1,0 +1,2 @@
+debugMode: false
+slackToken: "YOUR_OAUTH_ACCESS_TOKEN_HERE"

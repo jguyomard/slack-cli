@@ -1,0 +1,12 @@
+language: go
+
+go:
+  - 1.8
+
+install:
+  - make build
+  - cp config.yaml.sample config.yaml
+
+script:
+  - make lint
+  - make ARGS="-tags=travis" test
